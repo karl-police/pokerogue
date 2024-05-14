@@ -3,7 +3,7 @@ import { AbilityTranslationEntries } from "#app/plugins/i18n.js";
 export const ability: AbilityTranslationEntries = {
   stench: {
     name: "Stench",
-    description: "By releasing stench when attacking, this Pokémon may cause the target to flinch.",
+    description: "By releasing a stench when attacking, the Pokémon may cause the target to flinch.",
   },
   drizzle: {
     name: "Drizzle",
@@ -11,7 +11,7 @@ export const ability: AbilityTranslationEntries = {
   },
   speedBoost: {
     name: "Speed Boost",
-    description: "Its Speed stat is boosted every turn.",
+    description: "The Pokémon's Speed stat is boosted every turn.",
   },
   battleArmor: {
     name: "Battle Armor",
@@ -19,15 +19,15 @@ export const ability: AbilityTranslationEntries = {
   },
   sturdy: {
     name: "Sturdy",
-    description: "It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.",
+    description: "The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.",
   },
   damp: {
     name: "Damp",
-    description: "Prevents the use of explosive moves, such as Self-Destruct, by dampening its surroundings.",
+    description: "The Pokémon dampens its surroundings, preventing all Pokémon from using explosive moves such as Self-Destruct.",
   },
   limber: {
     name: "Limber",
-    description: "Its limber body protects the Pokémon from paralysis.",
+    description: "The Pokémon’s limber body prevents it from being paralyzed.",
   },
   sandVeil: {
     name: "Sand Veil",
@@ -35,19 +35,19 @@ export const ability: AbilityTranslationEntries = {
   },
   static: {
     name: "Static",
-    description: "The Pokémon is charged with static electricity, so contact with it may cause paralysis.",
+    description: "The Pokémon is charged with static electricity and may paralyze attackers that make direct contact with it.",
   },
   voltAbsorb: {
     name: "Volt Absorb",
-    description: "Restores HP if hit by an Electric-type move instead of taking damage.",
+    description: "If hit by an Electric-type move, the Pokémon has its HP restored instead of taking damage.",
   },
   waterAbsorb: {
     name: "Water Absorb",
-    description: "Restores HP if hit by a Water-type move instead of taking damage.",
+    description: "If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.",
   },
   oblivious: {
     name: "Oblivious",
-    description: "The Pokémon is oblivious, and that keeps it from being infatuated or falling for taunts.",
+    description: "The Pokémon is oblivious, keeping it from being infatuated, falling for taunts, or being affected by Intimidate.",
   },
   cloudNine: {
     name: "Cloud Nine",
